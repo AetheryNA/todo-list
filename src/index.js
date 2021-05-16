@@ -1,17 +1,13 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import '../public/scss/styles.scss';
+import './scss/styles.scss';
 
 // Pages
+import Listing from './pages/listing/index'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Listing />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
